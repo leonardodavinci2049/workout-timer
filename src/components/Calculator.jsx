@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { memo, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import clickSound from './ClickSound.m4a';
@@ -85,4 +85,4 @@ Calculator.propTypes = {
   allowSound: PropTypes.bool.isRequired,
 };
 
-export default Calculator;
+export default memo(Calculator);
