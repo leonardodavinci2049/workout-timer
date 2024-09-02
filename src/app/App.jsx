@@ -8,7 +8,7 @@ function App() {
   const [allowSound, setAllowSound] = useState(true);
 
   const [time, setTime] = useState(formatTime(new Date()));
-console.log(time);
+//console.log(time);
   // Will be be AM or PM
   const partOfDay = time.slice(-2);
 //console.log(partOfDay);
